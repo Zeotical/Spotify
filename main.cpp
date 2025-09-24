@@ -32,7 +32,7 @@ int main() {
                 vshalTopSongs();
                 break;
             case 4:
-                izaaanLyricsQuiz();
+                izaanLyricsQuiz();
                 break;
             case 5:
                 mostStreamedSongGuess();
