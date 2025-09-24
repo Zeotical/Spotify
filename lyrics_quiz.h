@@ -1,6 +1,6 @@
 #ifndef LYRICS_QUIZ_H
 #define LYRICS_QUIZ_H
 
-void izaaanLyricsQuiz();
+void izaanLyricsQuiz();
 
 #endif
