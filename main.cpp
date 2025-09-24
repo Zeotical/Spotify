@@ -12,7 +12,7 @@ int main() {
 
     do {
         cout << "=== Song Recommendation Assistant ===\n";
-        cout << "1. Song Recommendation (Saachin)\n";
+        cout << "1. Song Recommendation\n";
         cout << "2. Song + Artist Description (Dinesh)\n";
         cout << "3. Top Songs of the Month (Vshal)\n";
         cout << "4. Lyrics Quiz (Izaan)\n";
@@ -23,7 +23,7 @@ int main() {
 
         switch(choice) {
             case 1:
-                saachinSongRec();
+                songRecommendation();
                 break;
             case 2:
                 dineshSongDesc();
