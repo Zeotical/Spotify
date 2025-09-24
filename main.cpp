@@ -1,8 +1,8 @@
 #include <iostream>
-#include "top_songs.h"
-#include "song_rec.h"
-#include "song_desc.h"
-#include "lyrics_quiz.h"
+// #include "top_songs.h"
+// #include "song_rec.h"
+// #include "song_desc.h"
+// #include "lyrics_quiz.h"
 #include "most_streamed.h"
 
 using namespace std;
@@ -23,16 +23,16 @@ int main() {
 
         switch(choice) {
             case 1:
-                songRecommendation();
+                // songRecommendation();
                 break;
             case 2:
-                dineshSongDesc();
+                // dineshSongDesc();
                 break;
             case 3:
-                vshalTopSongs();
+                // vshalTopSongs();
                 break;
             case 4:
-                izaanLyricsQuiz();
+                // izaanLyricsQuiz();
                 break;
             case 5:
                 mostStreamedSongGuess();
