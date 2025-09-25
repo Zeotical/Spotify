@@ -4,6 +4,7 @@
 #include "song_desc.h"
 #include "lyrics_quiz.h"
 #include "most_streamed.h"
+#include "quiz_songRec.h"
 
 using namespace std;
 
@@ -15,9 +16,10 @@ int main() {
         cout << "1. Song Recommendation\n";
         cout << "2. Song + Artist Description (Dinesh)\n";
         cout << "3. Top Songs of the Month (Vshal)\n";
-        cout << "4. Lyrics Quiz (Izaan)\n";
-        cout << "5. Most Streamed Song Guess Game\n";
-        cout << "6. Exit\n";
+        cout << "4. Quiz to Get Song Recommendation \n";
+        cout << "5. Lyrics Quiz (Izaan)\n";
+        cout << "6. Most Streamed Song Guess Game\n";
+        cout << "7. Exit\n";
         cout << "Enter your choice: ";
         cin >> choice;
 
@@ -32,12 +34,15 @@ int main() {
                 vshalTopSongs();
                 break;
             case 4:
-                izaanLyricsQuiz();
+                quizSongRec();
                 break;
             case 5:
-                mostStreamedSongGuess();
+                izaanLyricsQuiz();
                 break;
             case 6:
+                mostStreamedSongGuess();
+                break;
+            case 7:
                 cout << "Exiting program...\n";
                 break;
             default:
@@ -46,7 +51,10 @@ int main() {
 
         cout << "\n";
 
-    } while(choice != 6);
+    } while(choice != 7);
 
     return 0;
 }
+
+
+//g++ main.cpp lyrics_quiz.cpp most_streamed.cpp song_desc.cpp song_rec.cpp top_songs.cpp quiz_songRec.cpp -o a.exe
