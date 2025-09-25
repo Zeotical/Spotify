@@ -145,5 +145,5 @@ void mostStreamedSongGuess() {
    }
     q_no++;
 } while(q_no<6);
-cout << "Your total score is " << score << " out of " << --q_no << ".";
+cout << "Your total score is " << score << " out of " << --q_no << ".\n";
 }
