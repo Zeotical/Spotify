@@ -2,8 +2,8 @@
 #include "song_desc.h"
 using namespace std;
 
-
-void dineshSongDesc() {
+// Function to display song and artist descriptions done bye Dinesh Waren.
+void dineshSongDesc() {  //Songs lists with genres
     int choice;
     cout << "\nChoose a song to view details:\n";
     cout << "1. Blinding Lights (Pop)\n";
@@ -24,7 +24,7 @@ void dineshSongDesc() {
     cout << "Enter choice (1-15): ";
     cin >> choice;
 
-    switch(choice) {
+    switch(choice) {    //Descriptions of songs and artists
         case 1:
             cout << "\nSong: Blinding Lights\n";
             cout << "Artist: The Weeknd\n";
