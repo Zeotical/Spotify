@@ -41,7 +41,7 @@ vector <string> question = {"1)Stressed Out - Twenty One Pilots 2)Bohemian Rhaps
                             "1)Don't Stop Believin' - Journey 2)In The End - Linkin Park",
                             "1)Another One Bites The Dust (2011 Remaster) - Queen 2) Heathens - Twenty One Pilots",
                             "1)Ride - Twenty One Pilots 2)Sweet Child O' Mine - Guns N' Roses",} ;
-cout <<  "Q" << q_no++ << ". " << ") " << question[q_no] << endl;
+cout << "Q" << q_no << ". " << question[--q_no] << endl;
 vector <int> answer = {2, 1, 2, 1, 2};
 
 while(ans != 1 && ans!= 2) {
@@ -70,7 +70,7 @@ vector <string> question = {"1)Dynamite - BTS 2)Seven - Jungkook",
                             "1)Money - Lisa 2)Boy with Luv - BTS",
                             "1)Left and Right - Jungkook 2)How You Like That - Blackpink",
                             "1)Like Crazy - Jimin 2)Kill This Love - Blackpink"} ;
-                            cout << "Q" << q_no++ << ". " << ") " << question[q_no] << endl;
+cout << "Q" << q_no << ". " << question[--q_no] << endl;
 vector <int> answer = {1, 1, 2, 2, 1};
 
 while(ans != 1 && ans!= 2) {
@@ -99,7 +99,7 @@ vector <string> question = {"1)The Night We Met - Lord Huron 2)I Wanna Be Yours 
 "1)Believer - Imagine Dragons 2)Heat Waves - Glass Animals",
 "1)Lovely - Billie Eilish & Khalid 2)Closer - The Chainsmokers ft. Halsey",
 "1)Fake Love - BTS 2)Cupid - Twin Version - Fifty Fifty "} ;
-cout << "Q" << q_no++ << ". "  << ") " << question[q_no] << endl;
+cout << "Q" << q_no << ". " << question[--q_no] << endl;
 vector <int> answer = {2, 2, 1, 1, 2};
 
 while(ans != 1 && ans!= 2) {
